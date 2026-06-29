@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LEAM — Brand Naming Workshop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden}
+body{font-family:'Instrument Sans',system-ui,sans-serif;background:#fff;color:#222629;-webkit-font-smoothing:antialiased;font-synthesis:none}
+::-webkit-scrollbar{width:8px;height:8px}
+::-webkit-scrollbar-track{background:#fafafa}
+::-webkit-scrollbar-thumb{background:#d1d5dc}
+::-webkit-scrollbar-thumb:hover{background:#F04F24}
+input,textarea,button{font-family:inherit}
+textarea:focus,input:focus{border-color:#F04F24 !important;outline:none}
+h1,h2,h3,p{text-wrap:balance}
+@keyframes rfRise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes sortRise{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+
+<div id="shell" style="display:grid;grid-template-rows:60px 1fr 76px;grid-template-columns:264px 1fr;height:100vh;width:100vw;overflow:hidden">
+
+  <header id="topbar" style="grid-column:1/-1;grid-row:1;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;padding:0 28px;background:#fff;z-index:10">
+    <div style="display:flex;align-items:center;gap:18px">
+      <svg width="83" height="18" viewBox="0 0 512 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#ac)">
+          <path d="M20.0826 1.91751C19.9658.957901 19.1484.358149 18.2143.478099H13.0764C12.1423.358149 11.3249 1.07785 11.2081 1.91751L.11501 39.582C-.235299 40.5416.231779 41.0214 1.2827 41.0214H6.07025C7.12118 41.0214 7.58826 40.4216 7.8218 39.582C7.8218 39.582 8.40565 37.063 9.3398 33.3445H21.4838C22.418 36.943 23.0018 39.582 23.0018 39.582C23.2354 40.5416 23.7025 41.0214 24.7534 41.0214H30.1248C31.1757 41.0214 31.526 40.4216 31.1757 39.582L20.0826 1.91751ZM10.9746 26.7473C13.0764 18.3507 15.4118 8.87463 15.4118 8.39483C15.4118 8.87463 17.7472 18.3507 19.8491 26.7473H10.9746Z" fill="#F04F24"/>
+          <path d="M94.8138.480014H89.9095C89.2089.480014 88.7418.719915 88.5082 1.19972L79.7505 22.191C78.9331 23.9903 78.2325 26.2694 78.2325 26.2694C77.7654 24.83 77.2984 23.5105 76.7145 22.0711L67.6065 1.31967C67.3729.719915 66.9059.360063 66.322.480014H61.6512C60.6003.480014 60.25.959816 60.25 1.91942V39.5839C60.25 40.5435 60.6003 41.0233 61.6512 41.0233H66.322C67.3729 41.0233 67.7233 40.5435 67.7233 39.5839V17.0332C68.0736 18.5925 68.5406 20.0319 69.1245 21.4713L74.1456 33.4664C74.3791 34.306 75.1965 35.0257 76.0139 34.9058H80.2176C81.1517 34.9058 81.9691 34.306 82.2027 33.4664L86.7567 22.311C87.3405 20.7516 88.3915 17.0332 88.5082 16.9132V39.5839C88.5082 40.5435 88.8585 41.0233 89.9095 41.0233H94.8138C95.8647 41.0233 96.215 40.5435 96.215 39.5839V1.91942C96.215.959816 95.8647.480014 94.8138.480014Z" fill="#F04F24"/>
+          <path d="M159.04.480824H154.136C153.435.480824 152.968.720725 152.735 1.20053L143.977 22.1919C143.16 23.9911 142.459 26.2702 142.459 26.2702C141.992 24.8308 141.525 23.5113 140.941 22.0719L131.833 1.20053C131.6.600774 131.132.240923 130.549.360873H125.878C124.827.360873 124.477.840675 124.477 1.80028V39.4647C124.477 40.4243 124.827 40.9041 125.878 40.9041H130.549C131.6 40.9041 131.95 40.4243 131.95 39.4647V17.034C132.3 18.5933 132.767 20.0328 133.351 21.4722L138.372 33.4672C138.606 34.3069 139.423 35.0266 140.24 34.9066H144.444C145.378 34.9066 146.196 34.3069 146.429 33.4672L150.983 22.3118C151.567 20.7525 152.618 17.034 152.735 16.914V39.5847C152.735 40.5443 153.085 41.0241 154.136 41.0241H159.04C160.091 41.0241 160.442 40.5443 160.442 39.5847V1.92023C160.442.960626 160.091.480824 159.04.480824Z" fill="#F04F24"/>
+          <path d="M215.67.486328H210.532C209.481.486328 209.131.96613 209.131 2.04568V30.4739C209.131 33.4727 206.679 34.9121 202.708 34.9121C198.738 34.9121 196.403 33.4727 196.403 30.4739V2.04568C196.403.96613 195.936.486328 195.002.486328H189.864C188.813.486328 188.346.96613 188.346 2.04568V31.9134C188.346 36.9513 191.966 41.6293 202.825 41.6293C213.685 41.6293 217.305 36.9513 217.305 31.9134V2.04568C217.071.96613 216.721.486328 215.67.486328Z" fill="#F04F24"/>
+          <path d="M246.493 41.1469H251.164C252.215 41.1469 252.565 40.6671 252.565 39.7075V15.7174C253.149 17.3967 253.966 19.076 254.9 20.5154L266.344 40.3073C266.694 40.907 266.928 41.027 267.745 41.027H272.416C273.467 41.027 273.817 40.5472 273.817 39.5876V1.9231C273.817.963494 273.467.483692 272.416.483692H267.745C266.694.483692 266.344.963494 266.344 1.9231V25.7932C265.76 24.3538 265.059 22.9144 264.359 21.595L252.448 1.08344C252.215.603643 251.748.363742 251.164.483692H246.493C245.442.483692 245.092.963494 245.092 1.9231V39.5876C245.092 40.6671 245.442 41.1469 246.493 41.1469Z" fill="#F04F24"/>
+          <path d="M314.117.486328H308.979C307.928.486328 307.578.96613 307.578 2.04568V39.5902C307.578 40.6697 307.928 41.1495 308.979 41.1495H314.117C315.168 41.1495 315.518 40.6697 315.518 39.5902V2.04568C315.635.96613 315.285.486328 314.117.486328Z" fill="#F04F24"/>
+          <path d="M370.977.486328H345.989C344.938.486328 344.471.84618 344.471 1.92573V5.6442C344.471 6.72375 344.938 7.0836 345.989 7.0836H354.396V39.4702C354.396 40.5498 354.863 41.0296 355.914 41.0296H361.052C362.103 41.0296 362.453 40.5498 362.453 39.4702V7.0836H370.861C371.912 7.0836 372.379 6.72375 372.379 5.6442V1.92573C372.495.84618 372.028.486328 370.977.486328Z" fill="#F04F24"/>
+          <path d="M402.156.486328H397.018C395.968.486328 395.617.96613 395.617 2.04568V39.5902C395.617 40.6697 395.968 41.1495 397.018 41.1495H402.156C403.207 41.1495 403.558 40.6697 403.558 39.5902V2.04568C403.558.96613 403.207.486328 402.156.486328Z" fill="#F04F24"/>
+          <path d="M442.675 0C431.932 0 428.195 4.67807 428.195 9.71599V31.7869C428.195 36.8248 431.815 41.5029 442.675 41.5029C453.534 41.5029 457.154 36.8248 457.154 31.7869V9.71599C457.154 4.67807 453.418 0 442.675 0ZM449.097 30.3475C449.097 33.3462 446.645 34.7856 442.675 34.7856C438.705 34.7856 436.369 33.3462 436.369 30.3475V11.1554C436.369 8.15664 438.705 6.71723 442.675 6.71723C446.645 6.71723 449.097 8.15664 449.097 11.1554V30.3475Z" fill="#F04F24"/>
+          <path d="M510.529.483692H505.858C504.807.483692 504.457.963494 504.457 1.9231V25.7932C503.873 24.3538 503.172 22.9144 502.472 21.595L490.444 1.08344C490.211.603643 489.744.363742 489.16.483692H484.489C483.438.483692 483.088.963494 483.088 1.9231V39.5876C483.088 40.5472 483.438 41.027 484.489 41.027H489.16C490.211 41.027 490.561 40.5472 490.561 39.5876V15.7174C491.262 17.3967 491.962 19.076 492.897 20.5154L504.34 40.3073C504.69 40.907 504.924 41.027 505.741 41.027H510.412C511.463 41.027 511.813 40.5472 511.813 39.5876V1.9231C511.93.963494 511.58.483692 510.529.483692Z" fill="#F04F24"/>
+          <path d="M292.04 95.9366H269.13C268.395 95.9366 268.021 95.6727 268.021 94.989V82.2383L219.293 95.9486H242.203C242.939 95.9486 243.312 96.2125 243.312 96.8962V109.647L292.04 95.9486V95.9366Z" fill="#F04F24"/>
+        </g>
+        <defs><clipPath id="ac"><rect width="511.824" height="109.635" fill="white"/></clipPath></defs>
+      </svg>
+      <div style="display:flex;align-items:center;gap:11px;padding-left:18px;border-left:1px solid #e5e7eb">
+        <span id="topbar-phase" style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#F04F24;font-weight:700">Naming Workshop</span>
+        <span id="topbar-title" style="font-size:13px;font-weight:600;color:#222629">Introduction</span>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:22px">
+      <span id="topbar-dur" style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#A7A8A9;font-weight:600"></span>
+      <span id="topbar-counter" style="font-size:11px;color:#A7A8A9;letter-spacing:.06em"></span>
+    </div>
+  </header>
+
+  <aside id="sidebar" style="grid-row:2/4;border-right:1px solid #e5e7eb;overflow-y:auto;padding:22px 0;display:flex;flex-direction:column;background:#fafafa"></aside>
+  <main id="content" style="grid-column:2;grid-row:2;overflow-y:auto;position:relative;background:#fff"></main>
+
+  <footer id="footer" style="grid-column:2;grid-row:3;display:flex;align-items:center;justify-content:space-between;border-top:1px solid #e5e7eb;padding:0 56px;background:#fff">
+    <button id="btn-back" onclick="prev()" style="display:none;align-items:center;gap:9px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;border:2px solid #e5e7eb;background:none;color:#7A7D7F;padding:13px 26px;transition:border-color .15s,color .15s" onmouseover="this.style.borderColor='#F04F24';this.style.color='#222629'" onmouseout="this.style.borderColor='#e5e7eb';this.style.color='#7A7D7F'">
+      <svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M4 1L1 4.5L4 8M11 4.5H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Back
+    </button>
+    <span id="footer-spacer"></span>
+    <button id="btn-next" onclick="next()" style="display:inline-flex;align-items:center;gap:9px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;border:2px solid #F04F24;background:#F04F24;color:#fff;padding:13px 28px;transition:background .15s,border-color .15s" onmouseover="this.style.background='#D43D14';this.style.borderColor='#D43D14'" onmouseout="this.style.background='#F04F24';this.style.borderColor='#F04F24'">
+      Start Workshop <svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M8 1L11 4.5L8 8M1 4.5H11" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </button>
+  </footer>
+</div>
+
+<script>
+const BOLT=`<svg width="132" height="48" viewBox="0 0 132 48" fill="none" style="height:.45em;width:auto;margin-left:.14em;vertical-align:baseline;transform:translateY(-.04em);display:inline-block"><path d="M132 24H90.4295C89.0947 24 88.4167 23.5377 88.4167 22.3398V0L0 24H41.5705C42.9053 24 43.5833 24.4623 43.5833 25.6602V48L132 24Z" fill="#F04F24"/></svg>`;
+
+const VALUES=['Conscience','Liberation','Radical Transparency','Authenticity'];
+const RANK_LABELS=['Lead','Strong','Supporting','Context'];
+
+const WARMUP_WORDS=['Reckoned','Mandate','Fracture','Candid','Steward','Legible','Sovereign','Assert','Forged','Bedrock','Breach','Stance','Deliberate','Charter','Reclaim','Surface','Enacted','Accord','Steadfast','Disclose','Surge','Earned','Forthright','Commit','Custody','Shift'];
+
+const TERRITORY_WORDS={
+  Conscience:['Reckon','Mandate','Steward','Author','Accord','Deliberate','Chosen','Custody','Sovereign','Enact','Witness','Vote','Cast','Commit','Avow','Stance','Resolve','Warrant','Pledge','Charter','Governed','Position','Intentional'],
+  Liberation:['Fracture','Breach','Reclaim','Charter','Restore','Own','Stride','Surge','Shift','Forge','Rise','Break','Unlock','Seize','Assert','Advance','Wield','Direct','Overturn','Recast','Displace','Propel'],
+  'Radical Transparency':['Legible','Candid','Stated','Disclose','Declared','Surface','Forthright','Plain','Frank','Evident','Lucid','Signal','Unspun','Visible','Articulate','Precise','Honest','Transparent','Reveal','Declare','Accountable','Readable'],
+  Authenticity:['Bedrock','Backbone','Steadfast','Forged','Earned','Proven','Earnest','Intact','Real','True','Tested','Solid','Anchored','Standing','Uncompromised','Durable','Genuine','Weighted','Held','Grounded','Founded','Settled']
+};
+
+const VALUE_INFO={
+  Conscience:{sub:'active, chosen, intentional',desc:"Not guilt. Not obligation. A deliberate choice made with full awareness. Your pension is a vote — cast every quarter — for the world you intend to live in. The question isn't where your money goes. It's what you've decided it stands for."},
+  Liberation:{sub:'breaking free, agency restored',desc:"The incumbent system trapped people — opaque, complex, disempowering. It was managed on your behalf, without your input. LEAM breaks that open. You're no longer a passive recipient. You're in motion, with your money doing what you've told it to do."},
+  'Radical Transparency':{sub:'seeing unvarnished truth',desc:"No small print. No managed narrative. No \"trust us.\" Every fee, every holding, every return — visible, legible, and unspun. Honesty as a design decision, not a compliance requirement. If you have to squint to read it, we haven't done our job."},
+  Authenticity:{sub:'unfiltered, honest, real',desc:"The name should feel chosen because it's true — not designed to sound true. There is a difference between a brand that is authentic and one that performs authenticity. Authenticity at LEAM shows up in what we refuse to do as much as what we do."}
+};
+
+const TONE_POSITIONS=[
+  {key:'conviction', label:'Conviction',  sub:'States a belief. Doesn\'t seek approval.',           desc:"The name exists as a declaration. It doesn't ask permission or explain itself — it assumes you already share the belief it carries.",                                          names:['Mandate','Reckoned','Enacted','Accord']},
+  {key:'movement',   label:'Movement',    sub:'Something is already in motion.',                    desc:"The name implies a shift underway — not a promise of future change but evidence of change already happening. Energy over authority.",                                       names:['Fracture','Surge','Breach','Reclaim']},
+  {key:'precision',  label:'Precision',   sub:'Stripped of decoration. Means exactly what it says.',desc:"No metaphor. No aspiration inflation. The name is as legible as a plain statement of fact. Honesty as aesthetic — the opposite of financial industry language.",           names:['Candid','Legible','Stated','Disclose']},
+  {key:'presence',   label:'Presence',    sub:'Has weight. Doesn\'t need to explain itself.',       desc:"The name occupies space without announcing itself. It feels like it has been there before the category existed and will be there after the trends have moved on.",           names:['Bedrock','Tenure','Sovereign','Forged']}
+];
+
+const EMOTIONS_BEFORE=['Passive','Confused','Disconnected','Powerless','Anxious','Excluded','Suspicious','Overwhelmed'];
+const EMOTIONS_AFTER=['Empowered','Clear','Proud','In control','Aligned','Accountable','Purposeful','Informed'];
+
+const REJECTION_OPTIONS=['A bank','A wealth manager','An investment platform','A pension provider','An adviser-led service','An ESG product','A passive fund tracker','A savings account','A financial planning tool','A compliance exercise'];
+
+const STRESS_TESTS=[
+  {key:'values',        label:'Values Alignment',         hint:'Which core values does it carry clearly?'},
+  {key:'phonetic',      label:'Phonetic Quality',          hint:'Say it aloud three times. Does it want to be said again?'},
+  {key:'ownable',       label:'Ownable & Defensible',      hint:'Trademark or domain concerns?'},
+  {key:'institutional', label:'Institutional Resilience',  hint:'Works in the app and in an FCA filing equally?'},
+  {key:'authentic',     label:'Authenticity Test',          hint:'Chosen because true, or designed to sound true?'},
+  {key:'stakeholder',   label:'Stakeholder Resonance',      hint:'Does it land with your team and your early users?'}
+];
+
+const NAME_GALLERY=[
+  {group:'Verb owned as noun',sub:'An action becomes an identity — the word does something rather than just describing.',names:[
+    {name:'Float',note:'Float (floatapp.com) — cash flow management SaaS. An action (to float a business) compressed into identity. Unexpected lightness in a category that has always felt heavy.'},
+    {name:'Drift',note:'Drift (drift.com) — conversational marketing platform. Movement without destination. It finds you rather than demanding you come to it.'},
+    {name:'Loom',note:'Loom (loom.com) — async video messaging. To loom large; to weave together. The word carries both presence and creation at the same time.'},
+    {name:'Stride',note:'Stride (stridehealth.com) — healthcare benefits for independent workers. Forward motion as identity. The name encodes the belief that agency belongs to you.'},
+    {name:'Blend',note:'Blend (blend.com) — mortgage technology platform. A verb that describes the customer\'s experience rather than the product\'s function.'}
+  ]},
+  {group:'The word the category avoids',sub:'Find what the industry has drained of meaning. Take it back at full weight.',names:[
+    {name:'Wise',note:'Wise (wise.com) — international money transfers, formerly TransferWise. The word financial services cannot use without irony. They took it completely and made it credible.'},
+    {name:'Earnest',note:'Earnest (earnest.com) — student loan refinancing. Sincere, genuine, without pretence. A word the lending industry has never been able to claim honestly.'},
+    {name:'Frank',note:'Frank (frankfinancialaid.com) — college financial aid. The word for directness that financial institutions have institutionally avoided. Named the quality the sector cannot embody.'},
+    {name:'Honest',note:'The Honest Company (honest.com) — consumer goods. The name the entire sector could have taken — and didn\'t, because they knew they couldn\'t back it up.'},
+    {name:'Plain',note:'Plain (plain.com) — customer support platform. The word for what financial services has always refused to be. Legibility as a radical act, not a feature.'}
+  ]},
+  {group:'Names that reject the category',sub:'The brand is named against what it isn\'t — the rejection is built into the word.',names:[
+    {name:'Monzo',note:'Monzo (monzo.com) — UK challenger bank. Sounds adjacent to "money" but means nothing. Built to not sound like a bank, because it was built to not be one.'},
+    {name:'Revolut',note:'Revolut (revolut.com) — global neobank. Revolution + revolving. Names the movement, not the service — the act of overturning, not the account type.'},
+    {name:'Atom',note:'Atom Bank (atombank.co.uk) — UK digital bank. The indivisible unit. Not a bank — the thing at the root of everything, the thing that predates banking.'},
+    {name:'Starling',note:'Starling Bank (starlingbank.com) — UK challenger bank. Named after a bird that moves in murmurations — collective, distributed, surprising. Entirely outside financial category language.'},
+    {name:'Acorns',note:'Acorns (acorns.com) — US micro-investing app. The small thing that becomes the large thing. Named after a natural process, not a financial product.'}
+  ]},
+  {group:'Compressed beliefs',sub:'The shortest possible version of a truth — one word carrying the full weight.',names:[
+    {name:'Vanguard',note:'Vanguard (vanguard.com) — investment firm, founded 1975. Military origin: the troops at the front. The name encodes a belief about leadership position — claimed once and made institutional by weight alone.'},
+    {name:'Robinhood',note:'Robinhood (robinhood.com) — commission-free investing. Named after the folk legend of taking from the rich to give to the poor. The entire positioning is in the name. No further explanation required.'},
+    {name:'Backbone',note:'Backbone (backbone.com) — mobile gaming controller. Names a quality of character. The name commits to the belief that what you\'re doing matters enough to support it properly.'},
+    {name:'Bedrock',note:'Amazon Bedrock (aws.amazon.com/bedrock) — AWS generative AI platform. Foundation before architecture. The thing everything else is built on — solidity without conservatism.'},
+    {name:'Manifesto',note:'Manifesto (manifestobeer.co.uk) — UK craft beer brand. A public declaration of intent. Named as a commitment, not a product description. The word the category refuses to use.'}
+  ]},
+  {group:'Invented and unexpected',sub:'Built from roots, sounds right, or takes a word from somewhere the category never looked.',names:[
+    {name:'Figma',note:'Figma (figma.com) — design collaboration tool. No literal meaning. Sounds decisive, ends on a hard consonant. Built to be said at speed in meetings. The name behaves like the product.'},
+    {name:'Patagonia',note:'Patagonia (patagonia.com) — outdoor apparel. Named after a remote geographic region. The name carries the ideology — wild, unconquered, worth protecting. Not named after clothing.'},
+    {name:'Zopa',note:'Zopa (zopa.com) — UK P2P lending pioneer. ZOPA = Zone Of Possible Agreement. The name encoded the mechanism: lending between people who could reach a deal.'},
+    {name:'Arc',note:'Arc (arc.net) — browser by The Browser Company. A geometric shape as identity — describes a direction without naming a destination. Self-contained, precise, impossible to confuse.'},
+    {name:'Notion',note:'Notion (notion.so) — productivity platform. A thought, an idea, deliberately unresolved. The product named the state it wants to create in you, not the features it contains.'}
+  ]}
+];
+
+const CLIENT_REFS=[
+  {theme:'Calm / trust / clarity',   names:['Clearwell','Clarion','Verity','Evident','TrueNorth','Clera','Cleava','Vero'],      favs:['Verity','Clera']},
+  {theme:'Light / guidance',          names:['Lumen','Aperture','Keystone','Guidant','Valen'],                                  favs:['Lumen']},
+  {theme:'Abstract / distinctive',    names:['Cora','Everon','Lucra','Tilt','Avora'],                                          favs:['Tilt']},
+  {theme:'Nature / growth / stability',names:['Potwell','Nestwell','Arbor','Elm','Sable','Origo'],                             favs:[]},
+  {theme:'Values / purpose-led',      names:['KindWealth','Ethos'],                                                           favs:[]},
+  {theme:'Raised but contested',      names:['Exclude','Permission'],                                                         favs:[]}
+];
+
+const GEN_PH={
+  Conscience:       ['e.g. Reckoned','e.g. Mandate','e.g. Accord','e.g. Wakeful','e.g. Enacted'],
+  Liberation:       ['e.g. Fracture','e.g. Reclaim','e.g. Breach','e.g. Wrest','e.g. Unbind'],
+  'Radical Transparency':['e.g. Candid','e.g. Legible','e.g. Surface','e.g. Stated','e.g. Forthright'],
+  Authenticity:     ['e.g. Forged','e.g. Bedrock','e.g. Steadfast','e.g. Earned','e.g. Wrought']
+};
+
+const META=[
+  {title:'Introduction',              phase:'',   lbl:'Naming Workshop', immersive:false, dur:''},
+  {title:'Rapid Fire: Brand Instinct',phase:'01', lbl:'Brand Essence',   immersive:true,  dur:'5 min'},
+  {title:'Value Priority',            phase:'01', lbl:'Brand Essence',   immersive:false, dur:'8 min'},
+  {title:'The Change We Create',      phase:'01', lbl:'Brand Essence',   immersive:false, dur:'10 min'},
+  {title:'Voice Position',            phase:'01', lbl:'Brand Essence',   immersive:false, dur:'5 min'},
+  {title:'Brief Lock',                phase:'01', lbl:'Brand Essence',   immersive:false, dur:'10 min'},
+  {title:'Future Ambition',           phase:'02', lbl:'Generation',      immersive:false, dur:'5 min'},
+  {title:'What We\'re Rejecting',     phase:'02', lbl:'Generation',      immersive:false, dur:'10 min'},
+  {title:'Territory Harvest',         phase:'02', lbl:'Generation',      immersive:false, dur:'20 min'},
+  {title:'Name Generation',           phase:'02', lbl:'Generation',      immersive:false, dur:'25 min'},
+  {title:'First-Pass Sort',           phase:'02', lbl:'Generation',      immersive:true,  dur:'10 min'},
+  {title:'Pattern Check',             phase:'02', lbl:'Generation',      immersive:false, dur:'5 min'},
+  {title:'Stress Testing',            phase:'03', lbl:'Evaluation',      immersive:false, dur:'45 min'},
+  {title:'Select Finalists',          phase:'04', lbl:'Decision',        immersive:false, dur:'10 min'},
+  {title:'Decision Rationale',        phase:'04', lbl:'Decision',        immersive:false, dur:'15 min'},
+  {title:'Workshop Output',           phase:'04', lbl:'Decision',        immersive:false, dur:''}
+];
+
+const SIDEBAR_GROUPS=[
+  {label:'01 — Essence',    steps:[[1,'Rapid Fire'],[2,'Value Priority'],[3,'The Change We Create'],[4,'Voice Position'],[5,'Brief Lock']]},
+  {label:'02 — Generation', steps:[[6,'Future Ambition'],[7,'What We\'re Rejecting'],[8,'Territory Harvest'],[9,'Name Generation'],[10,'First-Pass Sort'],[11,'Pattern Check']]},
+  {label:'03 — Testing',    steps:[[12,'Stress Testing']]},
+  {label:'04 — Decision',   steps:[[13,'Select Finalists'],[14,'Decision Rationale'],[15,'Workshop Output']]}
+];
+
+// ── STATE ─────────────────────────────────────
+const ST={
+  step:0, unlocked:[0,1],
+  warmup:{}, rfIdx:0,
+  valueRanking:[],
+  emotionsBefore:[], emotionsAfter:[], primaryEmotion:'',
+  tonePosition:'',
+  guardrails:'', stakeholders:'',
+  ambition1:'', ambition2:'', ambition3:'',
+  rejections:[], notStatement:'',
+  harvested:{Conscience:[],Liberation:[],'Radical Transparency':[],Authenticity:[]},
+  harvestTab:'Conscience', genTab:'Conscience',
+  slots:{Conscience:['','','','',''],Liberation:['','','','',''],'Radical Transparency':['','','','',''],Authenticity:['','','','','']},
+  clusters:{}, sortQueue:[], sortIndex:0, sortTally:{yes:0,maybe:0,no:0},
+  stressActive:null, scores:{}, finalists:[], rationale:'',
+  genSideTab:'gallery'
+};
+
+// ── HELPERS ───────────────────────────────────
+function candidates(){const c={};VALUES.forEach(v=>(ST.slots[v]||[]).forEach(n=>{if(n&&n.trim())c[n.trim()]={value:v};}));return c;}
+function yesList(){const c=candidates();return Object.keys(c).filter(n=>ST.clusters[n]==='yes');}
+function avgScore(name){const sc=STRESS_TESTS.map(t=>ST.scores[name]&&ST.scores[name][t.key]).filter(Boolean);return sc.length===STRESS_TESTS.length?(sc.reduce((a,b)=>a+b,0)/sc.length).toFixed(1):'—';}
+function callout(t){return `<div style="border-left:2px solid #F04F24;background:#fafafa;padding:14px 18px;display:flex;gap:12px"><span style="color:#F04F24;font-size:13px;flex-shrink:0">◆</span><span style="font-size:13px;color:#222629;line-height:1.7;font-style:italic">${t}</span></div>`;}
+function eyebrow(t){return `<div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:12px">${t}</div>`;}
+function hl(sans,serif){return `<h1 style="font-size:clamp(28px,3.2vw,42px);line-height:1.04;letter-spacing:-.04em;margin-bottom:16px;color:#080808"><span style="font-weight:500">${sans} </span><span style="font-family:'Instrument Serif',serif;font-style:italic;font-weight:400">${serif}</span></h1>`;}
+function toneLabel(){const tp=TONE_POSITIONS.find(t=>t.key===ST.tonePosition);return tp?tp.label:'Not selected';}
+
+// ── NAVIGATION ────────────────────────────────
+function validate(s){
+  if(s===2&&ST.valueRanking.length<2){alert('Rank at least 2 values before continuing.');return false;}
+  if(s===8&&VALUES.some(v=>(ST.harvested[v]||[]).length<3)){alert('Harvest at least 3 words per territory before continuing.');return false;}
+  if(s===9&&Object.keys(candidates()).length<1){alert('Add at least one name before continuing.');return false;}
+  if(s===13&&ST.finalists.length<1){alert('Select at least one finalist.');return false;}
+  return true;
+}
+function goTo(n,unlock){
+  if(n<0||n>15)return;
+  ST.step=n;
+  if(unlock&&!ST.unlocked.includes(n))ST.unlocked.push(n);
+  if(n===10){const c=candidates();ST.sortQueue=Object.keys(c).map(name=>({name,value:c[name].value}));ST.sortIndex=0;ST.sortTally={yes:0,maybe:0,no:0};ST.sortQueue.forEach(it=>delete ST.clusters[it.name]);}
+  if(n===12){const yes=yesList();if((!ST.stressActive||!yes.includes(ST.stressActive))&&yes.length)ST.stressActive=yes[0];}
+  renderAll();
+}
+function next(){if(!validate(ST.step))return;if(ST.step<15)goTo(ST.step+1,true);}
+function prev(){if(ST.step>0)goTo(ST.step-1);}
+function navTo(n){if(ST.unlocked.includes(n)||n<=ST.step)goTo(n);}
+
+// ── SHELL ─────────────────────────────────────
+function renderShell(){
+  const m=META[ST.step],s=ST.step;
+  document.getElementById('topbar-phase').textContent=s===0?'Naming Workshop':`${m.phase} · ${m.lbl}`;
+  document.getElementById('topbar-title').textContent=m.title;
+  document.getElementById('topbar-dur').textContent=m.dur;
+  document.getElementById('topbar-counter').textContent=s===0?'':`Step ${s} / 15`;
+  document.getElementById('content').style.background=m.immersive?'#222629':'#fff';
+  const back=document.getElementById('btn-back'),nxt=document.getElementById('btn-next'),sp=document.getElementById('footer-spacer');
+  back.style.display=s>0?'inline-flex':'none';
+  sp.style.display=s===0?'inline-flex':'none';
+  nxt.style.display=s===15?'none':'inline-flex';
+  nxt.childNodes[0].textContent=s===0?'Start workshop ':'Continue ';
+  const pct=Math.round(s/15*100);
+  document.getElementById('sidebar').innerHTML=SIDEBAR_GROUPS.map(g=>`
+    <div style="padding:0 18px;margin-bottom:16px">
+      <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#A7A8A9;margin-bottom:8px;padding:0 4px;font-weight:600">${g.label}</div>
+      ${g.steps.map(([n,label])=>{
+        const active=n===s,done=!active&&(n<s||ST.unlocked.includes(n));
+        const rs=active?'border:2px solid #F04F24;background:rgba(240,79,36,.07);cursor:pointer':done?'border:2px solid transparent;cursor:pointer':'border:2px solid transparent;opacity:.5;cursor:not-allowed';
+        const ds=active?'background:#F04F24;border-color:#F04F24;color:#fff':done?'border-color:#A7A8A9;color:#7A7D7F;background:#fff':'border-color:#D3D4D4;color:#A7A8A9';
+        const lc=active?'#222629':done?'#7A7D7F':'#A7A8A9';
+        return `<div style="display:flex;align-items:center;gap:10px;padding:9px 11px;${rs}" onclick="navTo(${n})"><div style="width:18px;height:18px;border:2px solid;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;flex-shrink:0;${ds}">${done&&!active?'✓':n}</div><span style="font-size:12px;font-weight:500;color:${lc}">${label}</span></div>`;
+      }).join('')}
+    </div>`).join('')+
+    `<div style="padding:16px 22px;margin-top:auto;border-top:1px solid #e5e7eb">
+      <button onclick="saveProgress()" style="width:100%;border:2px solid #e5e7eb;background:none;color:#7A7D7F;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;padding:9px;display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:12px;transition:border-color .15s,color .15s" onmouseover="this.style.borderColor='#F04F24';this.style.color='#222629'" onmouseout="this.style.borderColor='#e5e7eb';this.style.color='#7A7D7F'"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1V8M3.5 5.5L6 8L8.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M1 10H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Save progress</button>
+      <div style="display:flex;justify-content:space-between;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#A7A8A9;margin-bottom:8px"><span>Progress</span><span>${pct}%</span></div>
+      <div style="height:3px;background:#e5e7eb"><div style="width:${pct}%;height:3px;background:#F04F24;transition:width .4s ease"></div></div>
+    </div>`;
+}
+
+// ── RENDERERS ─────────────────────────────────
+const R={
+
+  0(){
+    document.getElementById('content').innerHTML=`
+    <div style="min-height:100%;background:linear-gradient(135deg,rgba(240,79,36,.10) 0%,rgba(248,185,60,.09) 25%,rgba(120,200,140,.07) 55%,rgba(80,160,210,.05) 80%,rgba(240,79,36,.04) 100%),#fff">
+      <div style="max-width:1000px;padding:72px 64px 56px">
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#D43D14;font-weight:700;margin-bottom:18px">LEAM · Brand Naming Workshop</div>
+        <h1 style="font-size:clamp(40px,5.4vw,72px);line-height:.98;letter-spacing:-0.04em;color:#080808;margin-bottom:22px">
+          <span style="font-weight:500;display:block">Name what</span>
+          <span style="font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;display:inline">you actually believe.</span>${BOLT}
+        </h1>
+        <p style="font-size:18px;line-height:1.6;color:#2C3033;max-width:580px;margin-bottom:10px">A facilitated naming workshop for LEAM — the challenger pension platform built on Conscience, Liberation, Radical Transparency, and Authenticity.</p>
+        <p style="font-size:15px;line-height:1.6;color:#7A7D7F;max-width:580px;margin-bottom:30px">The incumbent system made opacity its operating model. LEAM is built on the belief that people deserve to see exactly what their money funds — and to change it. The name needs to carry that weight.</p>
+        <div style="border-left:2px solid #F04F24;background:rgba(255,255,255,.7);padding:16px 20px;margin-bottom:36px;max-width:580px;display:flex;gap:13px">
+          <span style="color:#F04F24;font-size:14px;flex-shrink:0;line-height:1.6">◆</span>
+          <span style="font-size:14px;color:#222629;line-height:1.7;font-style:italic">One rule before we start: don't defend a name. If it needs explaining, it's not working. The right name lands before anyone has finished saying it.</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:920px">
+          ${[{num:'01',title:'Brand Essence',desc:'Brand instinct, value priority, emotional shift, voice position, brief lock.',dur:'~40 min'},{num:'02',title:'Territory & Generation',desc:'Future ambition, category rejection, harvest words, generate names, gut-sort.',dur:'~75 min'},{num:'03',title:'Stress Testing',desc:'Run your shortlisted names through six evaluation criteria.',dur:'~45 min'},{num:'04',title:'Decision',desc:'Select finalists, lock the rationale, export the full workshop record.',dur:'~25 min'}].map(c=>`
+          <div style="border:2px solid rgba(34,38,41,.18);background:rgba(255,255,255,.7);padding:22px 20px">
+            <div style="font-size:34px;font-weight:500;letter-spacing:-.03em;color:#F04F24;line-height:1;margin-bottom:14px">${c.num}</div>
+            <div style="font-size:15px;font-weight:700;margin-bottom:6px;color:#080808">${c.title}</div>
+            <div style="font-size:13px;color:#2C3033;line-height:1.6">${c.desc}</div>
+            <div style="font-size:11px;color:#7A7D7F;margin-top:12px;text-transform:uppercase;letter-spacing:.08em">${c.dur}</div>
+          </div>`).join('')}
+        </div>
+      </div>
+    </div>`;
+  },
+
+  1(){
+    const done=Object.keys(ST.warmup).length;
+    if(done>=WARMUP_WORDS.length){
+      const y=Object.values(ST.warmup).filter(v=>v==='yes').length,
+            m=Object.values(ST.warmup).filter(v=>v==='maybe').length,
+            n=Object.values(ST.warmup).filter(v=>v==='no').length;
+      document.getElementById('content').innerHTML=`<div style="min-height:100%;background:#222629;display:flex;align-items:center;justify-content:center"><div style="text-align:center;animation:fadeUp .4s ease"><div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:14px">Complete</div><div style="font-family:'Instrument Serif',serif;font-style:italic;font-size:52px;color:#fff;margin-bottom:18px;line-height:1">Instincts locked.</div><div style="font-size:16px;color:rgba(255,255,255,.6)">${y} Yes &nbsp;·&nbsp; ${m} Maybe &nbsp;·&nbsp; ${n} No</div><div style="font-size:14px;color:rgba(255,255,255,.35);margin-top:12px">Click Continue to proceed.</div></div></div>`;
+      return;
+    }
+    ST.rfIdx=done;
+    const cur=WARMUP_WORDS[ST.rfIdx];
+    document.getElementById('content').innerHTML=`
+    <div id="rf-stage" style="min-height:100%;background:#222629;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:48px;gap:30px">
+      <div style="text-align:center">
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:8px">Phase 01 · Rapid Fire</div>
+        <p style="font-size:14px;color:rgba(255,255,255,.6)">Vote on each word instinctively — don't analyse, just respond.</p>
+      </div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;justify-content:center;max-width:380px" id="rf-dots">
+        ${WARMUP_WORDS.map((_,i)=>`<div id="rfd-${i}" style="width:8px;height:8px;border:2px solid ${i<done?'transparent':i===done?'rgba(255,255,255,.6)':'rgba(255,255,255,.2)'};background:${i<done?'#F04F24':'transparent'};transition:.2s"></div>`).join('')}
+      </div>
+      <div style="height:140px;display:flex;align-items:center;justify-content:center;width:100%">
+        <div id="rf-word" style="font-family:'Instrument Serif',serif;font-style:italic;font-size:clamp(52px,7vw,84px);color:#fff;text-align:center;will-change:transform,opacity;line-height:1;animation:rfRise .28s cubic-bezier(.2,0,.3,1)">${cur}</div>
+      </div>
+      <div style="display:flex;gap:16px">
+        <button onclick="rfVote('no')" style="width:122px;height:54px;border:2px solid rgba(255,255,255,.3);background:none;color:rgba(255,255,255,.7);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:.12s" onmouseover="this.style.background='rgba(255,255,255,.08)';this.style.borderColor='rgba(255,255,255,.5)'" onmouseout="this.style.background='none';this.style.borderColor='rgba(255,255,255,.3)'"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 2L10 10M10 2L2 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>No</button>
+        <button onclick="rfVote('maybe')" style="width:122px;height:54px;border:2px solid #F04F24;background:none;color:#F04F24;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:.12s" onmouseover="this.style.background='rgba(240,79,36,.14)'" onmouseout="this.style.background='none'"><svg width="12" height="2" viewBox="0 0 12 2" fill="none"><path d="M1 1H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Maybe</button>
+        <button onclick="rfVote('yes')" style="width:122px;height:54px;border:2px solid #F04F24;background:#F04F24;color:#fff;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:.12s" onmouseover="this.style.background='#D43D14';this.style.borderColor='#D43D14'" onmouseout="this.style.background='#F04F24';this.style.borderColor='#F04F24'"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Yes</button>
+      </div>
+      <div style="display:flex;gap:30px">
+        <div style="text-align:center"><div id="rft-yes" style="font-size:22px;font-weight:700;color:#F04F24">${Object.values(ST.warmup).filter(v=>v==='yes').length}</div><div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35)">Yes</div></div>
+        <div style="text-align:center"><div id="rft-maybe" style="font-size:22px;font-weight:700;color:#fff">${Object.values(ST.warmup).filter(v=>v==='maybe').length}</div><div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35)">Maybe</div></div>
+        <div style="text-align:center"><div id="rft-no" style="font-size:22px;font-weight:700;color:rgba(255,255,255,.5)">${Object.values(ST.warmup).filter(v=>v==='no').length}</div><div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35)">No</div></div>
+      </div>
+      <div id="rf-counter" style="font-size:13px;color:rgba(255,255,255,.35);letter-spacing:.06em">${ST.rfIdx+1} of ${WARMUP_WORDS.length}</div>
+    </div>`;
+  },
+
+  2(){
+    const render=()=>VALUES.map(v=>{
+      const ri=ST.valueRanking.indexOf(v),ranked=ri!==-1;
+      return `<div onclick="rankValue('${v}')" style="border:2px solid ${ranked?'#F04F24':'#e5e7eb'};background:${ranked?'rgba(240,79,36,.05)':'#fff'};padding:24px 22px;cursor:pointer;position:relative;transition:.15s;user-select:none">
+        ${ranked?`<div style="position:absolute;top:12px;right:12px;background:#F04F24;color:#fff;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px">${RANK_LABELS[ri]}</div>`:''}
+        <div style="font-size:18px;font-weight:700;margin-bottom:4px;color:#080808">${v}</div>
+        <div style="font-size:12px;color:#F04F24;font-family:'Instrument Serif',serif;font-style:italic;margin-bottom:10px">${VALUE_INFO[v].sub}</div>
+        <div style="font-size:13px;color:#7A7D7F;line-height:1.65">${VALUE_INFO[v].desc}</div>
+      </div>`;
+    }).join('');
+    window._rankRender=render;
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:900px">
+      ${eyebrow('Phase 01 · Value Priority')}
+      ${hl('Which value','should lead the name?')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:560px;margin-bottom:24px">Click each card in order of priority. First is Lead, second is Strong, third is Supporting, fourth is Context. All four need ranking.</p>
+      <div style="margin-bottom:28px;max-width:580px">${callout("The lead value doesn't dominate — it anchors. The name should carry all four values, but the lead value is its spine.")}</div>
+      <div id="rank-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:14px">${render()}</div>
+      <div id="rank-hint" style="font-size:12px;color:#A7A8A9;font-style:italic;margin-top:14px">${ST.valueRanking.length<4?`Ranked ${ST.valueRanking.length}/4.${RANK_LABELS[ST.valueRanking.length]?' Next: select the '+RANK_LABELS[ST.valueRanking.length]+' value.':''}` : 'All four ranked. Click any to re-order.'}</div>
+    </div>`;
+  },
+
+  3(){
+    const renderChips=(list,selected,field)=>list.map(e=>{
+      const on=selected.includes(e);
+      return `<div onclick="toggleEmotion('${e}','${field}')" style="padding:9px 16px;border:2px solid ${on?'#F04F24':'#e5e7eb'};background:${on?'#F04F24':'#fff'};color:${on?'#fff':'#222629'};font-size:14px;font-weight:500;cursor:pointer;transition:.15s;user-select:none">${e}</div>`;
+    }).join('');
+    const primaries=ST.emotionsAfter.length?ST.emotionsAfter:EMOTIONS_AFTER;
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:900px">
+      ${eyebrow('Phase 01 · The Change We Create')}
+      ${hl('Before and after','LEAM.')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:580px;margin-bottom:28px">The strongest names encode an emotional transformation. Before you generate words, agree on the shift you're creating — and which feeling should the name evoke first.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:28px">
+        <div style="border:2px solid #e5e7eb;padding:22px">
+          <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#A7A8A9;font-weight:700;margin-bottom:14px">Before LEAM, people feel</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px" id="chips-before">${renderChips(EMOTIONS_BEFORE,ST.emotionsBefore,'emotionsBefore')}</div>
+        </div>
+        <div style="border:2px solid #e5e7eb;padding:22px">
+          <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:14px">After LEAM, they feel</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px" id="chips-after">${renderChips(EMOTIONS_AFTER,ST.emotionsAfter,'emotionsAfter')}</div>
+        </div>
+      </div>
+      <div style="border:2px solid ${ST.primaryEmotion?'#F04F24':'#e5e7eb'};padding:22px;margin-bottom:22px">
+        <div style="font-size:13px;font-weight:700;color:#222629;margin-bottom:6px">Which feeling should the name make someone reach for first?</div>
+        <div style="font-size:13px;color:#7A7D7F;margin-bottom:16px;line-height:1.6">This directly steers the generation phase. Select one from the After column.</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          ${primaries.map(e=>`<div onclick="setPrimaryEmotion('${e}')" style="padding:9px 16px;border:2px solid ${ST.primaryEmotion===e?'#F04F24':'#e5e7eb'};background:${ST.primaryEmotion===e?'#F04F24':'#fff'};color:${ST.primaryEmotion===e?'#fff':'#222629'};font-size:14px;font-weight:500;cursor:pointer;transition:.15s;user-select:none">${e}</div>`).join('')}
+        </div>
+      </div>
+      ${callout("Naming without an emotional brief produces names that are technically correct but don't move anyone. The shortlisted names in step 13 will be tested against the feeling you select here.")}
+    </div>`;
+  },
+
+  4(){
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:860px">
+      ${eyebrow('Phase 01 · Voice Position')}
+      ${hl('What voice does','the name speak in?')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:580px;margin-bottom:28px">Pick one voice position. This shapes the feel of every name idea generated — it's not about what the name means, it's about how it lands.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:22px">
+        ${TONE_POSITIONS.map(tp=>{
+          const sel=ST.tonePosition===tp.key;
+          return `<div onclick="selectTone('${tp.key}')" style="border:2px solid ${sel?'#F04F24':'#e5e7eb'};background:${sel?'rgba(240,79,36,.05)':'#fff'};padding:24px 22px;cursor:pointer;position:relative;transition:.15s;user-select:none">
+            ${sel?`<div style="position:absolute;top:12px;right:12px;background:#F04F24;color:#fff;font-size:10px;font-weight:700;padding:4px 9px">Selected</div>`:''}
+            <div style="font-size:18px;font-weight:700;margin-bottom:4px;color:#080808">${tp.label}</div>
+            <div style="font-size:12px;color:#F04F24;font-family:'Instrument Serif',serif;font-style:italic;margin-bottom:10px">${tp.sub}</div>
+            <div style="font-size:13px;color:#7A7D7F;line-height:1.65;margin-bottom:14px">${tp.desc}</div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+              ${tp.names.map(n=>`<div style="padding:4px 10px;border:2px solid ${sel?'rgba(240,79,36,.3)':'#e5e7eb'};font-size:12px;font-weight:600;color:${sel?'#F04F24':'#7A7D7F'};font-family:'Instrument Serif',serif;font-style:italic">${n}</div>`).join('')}
+            </div>
+          </div>`;
+        }).join('')}
+      </div>
+      ${callout("You're not locked in — this is a generative anchor, not a rule. But naming without a voice position produces names that could belong to any brand.")}
+    </div>`;
+  },
+
+  5(){
+    const lead=ST.valueRanking[0]||'—',second=ST.valueRanking[1]||'—';
+    const yes=Object.entries(ST.warmup).filter(([,v])=>v==='yes').map(([k])=>k).join(', ')||'—';
+    const no=Object.entries(ST.warmup).filter(([,v])=>v==='no').map(([k])=>k).join(', ')||'—';
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:820px">
+      ${eyebrow('Phase 01 · Brief Lock')}
+      ${hl('Everything agreed.','Brief locked.')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:560px;margin-bottom:28px">Review what the workshop has established, then add any guardrails or stakeholder context before entering the generation phase.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:28px">
+        ${[['Lead Value',lead],['Second Value',second],['Voice Position',toneLabel()],['Primary Emotion',ST.primaryEmotion||'—']].map(([k,v])=>
+          `<div style="border:2px solid #e5e7eb;padding:18px 20px"><div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:8px">${k}</div><div style="font-size:16px;font-weight:600;color:#080808;line-height:1.4">${v}</div></div>`).join('')}
+        <div style="border:2px solid #e5e7eb;padding:18px 20px"><div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:8px">Words that felt right</div><div style="font-size:13px;color:#7A7D7F;line-height:1.6">${yes}</div></div>
+        <div style="border:2px solid #e5e7eb;padding:18px 20px"><div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:8px">Words that felt wrong</div><div style="font-size:13px;color:#7A7D7F;line-height:1.6">${no}</div></div>
+      </div>
+      <div style="margin-bottom:22px">
+        <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#7A7D7F;font-weight:700;margin-bottom:8px">Guardrails — what should we never produce?</div>
+        <textarea rows="3" placeholder="e.g. Nothing that sounds like a bank. No portmanteaus. Avoid anything evoking protection as the lead idea…" style="width:100%;background:#fff;border:2px solid #e5e7eb;color:#222629;padding:14px;font-size:14px;line-height:1.6;resize:vertical;transition:border-color .15s" oninput="ST.guardrails=this.value">${ST.guardrails}</textarea>
+      </div>
+      <div>
+        <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#7A7D7F;font-weight:700;margin-bottom:8px">Stakeholder context — what are the relevant opinions in the room?</div>
+        <textarea rows="3" placeholder="e.g. There's a view that the name needs to work for a more traditional audience. One stakeholder wants institutional weight without conservatism…" style="width:100%;background:#fff;border:2px solid #e5e7eb;color:#222629;padding:14px;font-size:14px;line-height:1.6;resize:vertical;transition:border-color .15s" oninput="ST.stakeholders=this.value">${ST.stakeholders}</textarea>
+      </div>
+    </div>`;
+  },
+
+  6(){
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:760px">
+      ${eyebrow('Phase 02 · Future Ambition')}
+      ${hl('Where is LEAM','going?')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:580px;margin-bottom:16px">The right name rarely describes where a company is today. Apple wasn't named after computers. Monzo wasn't named after banking. Patagonia wasn't named after clothing.</p>
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:580px;margin-bottom:28px">These three sentences give the naming process a future anchor — complete them with the first honest answer, not the safest one.</p>
+      ${[
+        {label:'In 10 years, LEAM will be the most _______ pension platform',field:'ambition1',ph:'e.g. trusted / radical / legible / owned'},
+        {label:'We changed _______ about the way people relate to their money',field:'ambition2',ph:'e.g. what it means to have a pension / who gets to decide where money goes'},
+        {label:'We made people feel _______ about their financial future for the first time',field:'ambition3',ph:'e.g. proud / in control / like it actually mattered'}
+      ].map(({label,field,ph})=>`
+        <div style="margin-bottom:20px">
+          <div style="font-size:13px;font-weight:600;color:#222629;margin-bottom:8px;line-height:1.5">${label}</div>
+          <textarea rows="2" placeholder="${ph}" style="width:100%;background:#fff;border:2px solid #e5e7eb;color:#222629;padding:12px 14px;font-size:14px;line-height:1.6;resize:vertical;transition:border-color .15s" oninput="ST['${field}']=this.value">${ST[field]}</textarea>
+        </div>`).join('')}
+      <div style="margin-top:8px">${callout("These answers become a naming filter. If a shortlisted name can't plausibly belong to the company described above, it probably doesn't belong in the shortlist.")}</div>
+    </div>`;
+  },
+
+  7(){
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:820px">
+      ${eyebrow('Phase 02 · What We\'re Rejecting')}
+      ${hl('Define LEAM by','what it refuses to be.')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:580px;margin-bottom:22px">Some of the strongest naming territory opens up by being clear about what you're not. Select every category that doesn't fit — then answer what LEAM actually is instead.</p>
+      <div style="margin-bottom:10px">
+        <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:14px">LEAM is not…</div>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px">
+          ${REJECTION_OPTIONS.map(r=>{
+            const on=ST.rejections.includes(r);
+            return `<div onclick="toggleRejection('${r}')" style="padding:9px 16px;border:2px solid ${on?'#F04F24':'#e5e7eb'};background:${on?'#F04F24':'#fff'};color:${on?'#fff':'#222629'};font-size:14px;font-weight:500;cursor:pointer;transition:.15s;user-select:none">${r}</div>`;
+          }).join('')}
+        </div>
+      </div>
+      <div style="margin-bottom:22px">
+        <div style="font-size:13px;font-weight:600;color:#222629;margin-bottom:8px">So what is it? Complete the sentence: LEAM is…</div>
+        <textarea rows="3" placeholder="e.g. The first pension that lets you see exactly what your money funds — and change it. A platform built on ownership, not administration." style="width:100%;background:#fff;border:2px solid #e5e7eb;color:#222629;padding:14px;font-size:14px;line-height:1.6;resize:vertical;transition:border-color .15s" oninput="ST.notStatement=this.value">${ST.notStatement}</textarea>
+      </div>
+      ${callout("Opacity wasn't a flaw in the existing system — it was the operating model. The name that beats it needs to carry the weight of that claim, not just sound progressive.")}
+    </div>`;
+  },
+
+  8(){
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:1000px">
+      ${eyebrow('Phase 02 · Territory Harvest')}
+      ${hl('Tune your ear','to each value.')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:600px;margin-bottom:26px">Click every word that resonates with LEAM's character. At least three per territory — these become the raw material for name generation.</p>
+      <div id="harvest-tabs" style="display:flex;border-bottom:1px solid #e5e7eb;margin-bottom:26px"></div>
+      <div id="harvest-body"></div>
+    </div>`;
+    renderHarvestTab(ST.harvestTab);
+  },
+
+  9(){
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:1060px">
+      ${eyebrow('Phase 02 · Name Generation')}
+      ${hl('Invent the','actual names.')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:640px;margin-bottom:22px">These are brand names you're creating — not selecting from a list. Aim for five per territory. Don't filter at this stage; volume first, judgment later.</p>
+      <div style="display:grid;grid-template-columns:1fr 310px;gap:30px;align-items:start">
+        <div>
+          <div style="border:2px solid #e5e7eb;padding:20px 22px;margin-bottom:22px;background:#fafafa">
+            <div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:14px">Five ways into a name</div>
+            ${[
+              ['Take a verb and own it as a noun','An action becomes an identity. Reckoned. Enacted. Disclosed. The word does something — it doesn\'t just describe.'],
+              ['Find the word the category avoids','What term has been drained of meaning by incumbents? Take it back at full weight. Candid. Transparent. Forthright.'],
+              ['Name the moment of change','When does someone first feel different because of LEAM? What\'s happening in that moment? Name it directly.'],
+              ['Start with the rejection','From the previous exercise: what single word names the thing you\'re fighting? Now name what you are instead.'],
+              ['Compress a belief to its smallest form','If the LEAM positioning had to become one word — the shortest possible version of the truth — what would it be?']
+            ].map(([t,d])=>`<div style="margin-bottom:13px;padding-bottom:13px;border-bottom:1px solid #e5e7eb"><div style="font-size:12px;font-weight:700;color:#222629;margin-bottom:4px">${t}</div><div style="font-size:12px;color:#7A7D7F;line-height:1.6">${d}</div></div>`).join('')}
+            <div style="font-size:12px;color:#A7A8A9;font-style:italic;margin-top:-4px">A name can be a modified word, two roots combined, or something entirely invented — the techniques above are starting points, not constraints.</div>
+          </div>
+          <div id="gen-tabs" style="display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap"></div>
+          <div id="gen-body"></div>
+        </div>
+        <div id="word-bank" style="border:2px solid #e5e7eb;padding:18px;position:sticky;top:0"></div>
+      </div>
+    </div>`;
+    renderGenTab(ST.genTab);
+  },
+
+  10(){
+    const q=ST.sortQueue;
+    if(q.length===0){
+      document.getElementById('content').innerHTML=`<div style="display:flex;align-items:center;justify-content:center;min-height:100%;background:#222629"><div style="text-align:center;max-width:420px"><div style="font-family:'Instrument Serif',serif;font-style:italic;font-size:32px;color:#fff;margin-bottom:12px">No names yet.</div><div style="font-size:15px;color:rgba(255,255,255,.6)">Go back to Step 9 and generate name ideas first.</div></div></div>`;
+      return;
+    }
+    if(ST.sortIndex>=q.length){
+      document.getElementById('content').innerHTML=`<div style="min-height:100%;background:#222629;display:flex;align-items:center;justify-content:center"><div style="text-align:center;animation:fadeUp .4s ease"><div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:14px">Complete</div><div style="font-family:'Instrument Serif',serif;font-style:italic;font-size:46px;color:#fff;margin-bottom:18px;line-height:1">All names sorted.</div><div style="font-size:16px;color:rgba(255,255,255,.6)">${ST.sortTally.yes} Yes &nbsp;·&nbsp; ${ST.sortTally.maybe} Maybe &nbsp;·&nbsp; ${ST.sortTally.no} No</div><div style="font-size:14px;color:rgba(255,255,255,.35);margin-top:12px">Continue to see the pattern analysis.</div></div></div>`;
+      return;
+    }
+    const cur=q[ST.sortIndex];
+    document.getElementById('content').innerHTML=`
+    <div id="sort-stage" style="min-height:100%;background:#222629;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:48px;gap:28px">
+      <div style="text-align:center">
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:8px">Phase 02 · First-Pass Sort</div>
+        <p style="font-size:14px;color:rgba(255,255,255,.6)">Vote on instinct alone. If you hesitate, vote Maybe.</p>
+      </div>
+      <div style="display:flex;gap:32px">
+        <div style="text-align:center"><div id="st-yes" style="font-size:26px;font-weight:700;color:#F04F24">${ST.sortTally.yes}</div><div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35)">Yes</div></div>
+        <div style="text-align:center"><div id="st-maybe" style="font-size:26px;font-weight:700;color:#fff">${ST.sortTally.maybe}</div><div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35)">Maybe</div></div>
+        <div style="text-align:center"><div id="st-no" style="font-size:26px;font-weight:700;color:rgba(255,255,255,.5)">${ST.sortTally.no}</div><div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35)">No</div></div>
+      </div>
+      <div id="sort-progress" style="font-size:12px;color:rgba(255,255,255,.35);letter-spacing:.08em;text-transform:uppercase">${ST.sortIndex+1} of ${q.length}</div>
+      <div id="sort-card-wrap" style="position:relative;height:170px;width:100%;max-width:500px;display:flex;align-items:center;justify-content:center">
+        <div id="sort-card" style="position:absolute;background:#2C3033;border:2px solid rgba(255,255,255,.14);padding:40px 48px;text-align:center;min-width:320px;animation:sortRise .3s cubic-bezier(.2,0,.3,1)">
+          <div style="font-family:'Instrument Serif',serif;font-style:italic;font-size:clamp(30px,5vw,52px);color:#fff;margin-bottom:8px;line-height:1">${cur.name}</div>
+          <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#F04F24">${cur.value}</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:16px">
+        <button onclick="sortVote('no')" style="width:138px;height:56px;border:2px solid rgba(255,255,255,.3);background:none;color:rgba(255,255,255,.7);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:.12s" onmouseover="this.style.background='rgba(255,255,255,.08)';this.style.borderColor='rgba(255,255,255,.5)'" onmouseout="this.style.background='none';this.style.borderColor='rgba(255,255,255,.3)'"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 2L10 10M10 2L2 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>No</button>
+        <button onclick="sortVote('maybe')" style="width:138px;height:56px;border:2px solid #F04F24;background:none;color:#F04F24;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:.12s" onmouseover="this.style.background='rgba(240,79,36,.14)'" onmouseout="this.style.background='none'"><svg width="12" height="2" viewBox="0 0 12 2" fill="none"><path d="M1 1H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Maybe</button>
+        <button onclick="sortVote('yes')" style="width:138px;height:56px;border:2px solid #F04F24;background:#F04F24;color:#fff;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:.12s" onmouseover="this.style.background='#D43D14';this.style.borderColor='#D43D14'" onmouseout="this.style.background='#F04F24';this.style.borderColor='#F04F24'"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Yes</button>
+      </div>
+    </div>`;
+  },
+
+  11(){
+    const c=candidates();
+    const grp=cl=>Object.keys(c).filter(n=>ST.clusters[n]===cl).map(n=>({name:n,value:c[n].value}));
+    const yes=grp('yes'),maybe=grp('maybe'),no=grp('no');
+    const vc={};yes.forEach(x=>vc[x.value]=(vc[x.value]||0)+1);
+    const dom=Object.entries(vc).sort((a,b)=>b[1]-a[1])[0];
+    const col=(label,color,bc,items)=>`
+      <div style="border:2px solid #e5e7eb;padding:20px">
+        <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:${color};padding-bottom:12px;border-bottom:2px solid ${bc};margin-bottom:14px">${label}</div>
+        ${items.length?items.map(x=>`<div style="font-size:14px;padding:6px 10px;background:#fafafa;margin-bottom:6px;display:flex;align-items:center;justify-content:space-between"><span>${x.name}</span><span style="font-size:10px;color:#A7A8A9;letter-spacing:.05em">${x.value}</span></div>`).join(''):'<div style="font-size:13px;color:#A7A8A9;font-style:italic">None</div>'}
+      </div>`;
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:1000px">
+      ${eyebrow('Phase 02 · Pattern Check')}
+      ${hl('What did your','instinct reveal?')}
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:22px">
+        ${col('Yes — feels like LEAM','#F04F24','#F04F24',yes)}
+        ${col('Maybe — worth another look','#7A7D7F','#d1d5dc',maybe)}
+        ${col('No — ruled out','#A7A8A9','#e5e7eb',no)}
+      </div>
+      ${dom?`<div style="border:2px solid #e5e7eb;padding:18px 22px;background:#fafafa;margin-bottom:20px"><div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:8px">Pattern Detected</div><div style="font-size:14px;color:#222629;line-height:1.65">Your Yes pool is dominated by <strong style="color:#F04F24">${dom[0]}</strong> territory (${dom[1]} name${dom[1]>1?'s':''}). This aligns with your Phase 1 value priority.</div></div>`:''}
+      ${callout("The stress test works with your Yes pool. If it has fewer than four names, go back and generate more before continuing.")}
+    </div>`;
+  },
+
+  12(){
+    const yes=yesList().slice(0,7);
+    if(yes.length===0){document.getElementById('content').innerHTML=`<div style="padding:48px 56px">${callout('No Yes names to test. Return to Step 10 and re-sort your name pool.')}</div>`;return;}
+    const active=(ST.stressActive&&yes.includes(ST.stressActive))?ST.stressActive:yes[0];
+    ST.stressActive=active;
+    const c=candidates();
+    const nav=yes.map(n=>`
+      <div onclick="setStressActive('${n}')" style="border:2px solid ${n===active?'#F04F24':'#e5e7eb'};background:${n===active?'rgba(240,79,36,.06)':'#fff'};padding:12px 14px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;transition:.15s;margin-bottom:7px">
+        <span style="font-size:14px;font-weight:600;font-family:'Instrument Serif',serif;font-style:italic">${n}</span>
+        <span style="font-size:13px;font-weight:700;color:#F04F24">${avgScore(n)}</span>
+      </div>`).join('');
+    const rows=STRESS_TESTS.map(t=>{
+      const cur=ST.scores[active]&&ST.scores[active][t.key];
+      const flag=(ST.scores[active]&&ST.scores[active][t.key+'_flag'])||'';
+      const btns=[1,2,3,4,5].map(s=>`<button onclick="setStressScore('${active}','${t.key}',${s},this)" style="width:36px;height:36px;border:2px solid ${cur===s?'#F04F24':'#e5e7eb'};background:${cur===s?'#F04F24':'#fff'};color:${cur===s?'#fff':'#7A7D7F'};font-weight:700;font-size:13px;cursor:pointer;transition:.1s">${s}</button>`).join('');
+      return `<div style="padding:16px 24px;border-bottom:2px solid #f1f1f1;display:flex;flex-direction:column;gap:10px">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+          <div style="flex:1"><div style="font-size:13px;font-weight:700;color:#222629">${t.label}</div><div style="font-size:11px;color:#A7A8A9;margin-top:2px">${t.hint}</div></div>
+          <div style="display:flex;gap:8px">${btns}</div>
+        </div>
+        <input type="text" value="${flag}" oninput="setStressFlag('${active}','${t.key}',this.value)" placeholder="Flag a concern…" style="width:100%;background:#fff;border:2px solid #e5e7eb;color:#222629;padding:9px 12px;font-size:13px;transition:border-color .15s">
+      </div>`;
+    }).join('');
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:1020px">
+      ${eyebrow('Phase 03 · Stress Testing')}
+      ${hl('Test each name','against six criteria.')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;margin-bottom:24px">Score 1–5. Flag anything that warrants a conversation. Say each name aloud before scoring.</p>
+      <div style="display:grid;grid-template-columns:210px 1fr;gap:26px;align-items:start">
+        <div id="stress-nav">${nav}</div>
+        <div style="border:2px solid #e5e7eb">
+          <div style="padding:20px 24px;border-bottom:2px solid #e5e7eb;background:#fafafa;display:flex;align-items:center;justify-content:space-between">
+            <div>
+              <div style="font-size:28px;font-family:'Instrument Serif',serif;font-style:italic;color:#080808">${active}</div>
+              <div style="font-size:11px;color:#F04F24;letter-spacing:.1em;text-transform:uppercase;margin-top:4px">${c[active]?c[active].value:''} territory</div>
+            </div>
+            <div style="text-align:right">
+              <div id="stress-avg" style="font-size:32px;font-weight:700;color:#F04F24;line-height:1">${avgScore(active)}</div>
+              <div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#A7A8A9">avg score</div>
+            </div>
+          </div>
+          <div>${rows}</div>
+        </div>
+      </div>
+    </div>`;
+  },
+
+  13(){
+    const c=candidates();
+    const yes=yesList().map(n=>({name:n,value:c[n].value,avg:avgScore(n)})).sort((a,b)=>(parseFloat(b.avg)||0)-(parseFloat(a.avg)||0));
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:920px">
+      ${eyebrow('Phase 04 · Decision')}
+      ${hl('Which names feel','inevitable?')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:560px;margin-bottom:28px">Select your strongest 10–15. These go forward to trademark checks, domain search, and word association testing — so cast wide. The right ones will surface. Sorted by stress score.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px">
+        ${yes.map(x=>{
+          const sel=ST.finalists.includes(x.name);
+          return `<div onclick="toggleFinalist('${x.name}',this)" style="border:2px solid ${sel?'#F04F24':'#e5e7eb'};background:${sel?'rgba(240,79,36,.05)':'#fff'};padding:22px 18px;text-align:center;cursor:pointer;transition:.15s">
+            <div style="font-size:22px;font-family:'Instrument Serif',serif;font-style:italic;margin-bottom:6px;color:#080808">${x.name}</div>
+            <div style="font-size:28px;font-weight:700;color:#F04F24;line-height:1;margin-bottom:4px">${x.avg}</div>
+            <div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#F04F24">${x.value}</div>
+          </div>`;
+        }).join('')}
+      </div>
+      ${yes.length===0?`<div style="margin-top:16px">${callout('No Yes names found. Return to Step 10 to sort your name pool.')}</div>`:''}
+    </div>`;
+  },
+
+  14(){
+    const c=candidates();
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:820px">
+      ${eyebrow('Phase 04 · Rationale')}
+      ${hl('Why these names','above all others?')}
+      <p style="font-size:17px;line-height:1.6;color:#7A7D7F;max-width:580px;margin-bottom:22px">Write the decision logic. Which values do they carry? What makes them defensible? What would have to be true for you to change your mind?</p>
+      <div style="margin-bottom:26px;max-width:580px">${callout("Write this for the person who wasn't in the session. They need to understand the decision, not just accept it.")}</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:26px">
+        ${ST.finalists.map(n=>`<div style="border:2px solid #e5e7eb;padding:18px 20px"><div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:8px">Finalist</div><div style="font-family:'Instrument Serif',serif;font-style:italic;font-size:20px;color:#080808">${n}</div><div style="font-size:13px;color:#7A7D7F;margin-top:6px">${c[n]?c[n].value:'—'} territory · Score ${avgScore(n)}/5</div></div>`).join('')}
+      </div>
+      <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#7A7D7F;font-weight:700;margin-bottom:8px">Decision rationale</div>
+      <textarea rows="6" placeholder="These names were selected because…" style="width:100%;background:#fff;border:2px solid #e5e7eb;color:#222629;padding:14px;font-size:14px;line-height:1.6;resize:vertical;transition:border-color .15s" oninput="ST.rationale=this.value">${ST.rationale}</textarea>
+    </div>`;
+  },
+
+  15(){
+    const doc=generateDoc();window._wsDoc=doc;
+    document.getElementById('content').innerHTML=`
+    <div style="padding:48px 56px;max-width:880px">
+      ${eyebrow('Workshop Complete')}
+      <h1 style="font-size:clamp(28px,3.2vw,42px);line-height:1.04;letter-spacing:-.04em;margin-bottom:28px;color:#080808"><span style="font-weight:500">The brief is </span><span style="font-family:'Instrument Serif',serif;font-style:italic;font-weight:400">ready to act on.</span>${BOLT}</h1>
+      <div style="margin-bottom:30px">
+        ${['Trademark search (UKIPO) for each finalist','Domain availability — .com, .co.uk, .io','Set each name in the LEAM brand typeface at large scale and sit with it for 48 hours','Stakeholder alignment session with the decision-makers who weren\'t in the session','FCA entity name compatibility check'].map((a,i)=>`<div style="display:flex;align-items:flex-start;gap:14px;padding:14px 18px;border:2px solid #e5e7eb;margin-bottom:8px"><div style="width:26px;height:26px;background:#F04F24;color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0">${i+1}</div><div style="font-size:14px;line-height:1.5;padding-top:3px;color:#222629">${a}</div></div>`).join('')}
+      </div>
+      <div style="border:2px solid #e5e7eb">
+        <div style="background:#fafafa;padding:14px 20px;border-bottom:2px solid #e5e7eb;display:flex;align-items:center;justify-content:space-between">
+          <span style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#7A7D7F;font-weight:600">Full Workshop Record</span>
+          <button onclick="downloadDoc()" style="display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;border:2px solid #e5e7eb;background:none;color:#7A7D7F;padding:9px 16px;transition:border-color .15s,color .15s" onmouseover="this.style.borderColor='#F04F24';this.style.color='#222629'" onmouseout="this.style.borderColor='#e5e7eb';this.style.color='#7A7D7F'"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1V8M3.5 5.5L6 8L8.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M1 10H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Download</button>
+        </div>
+        <pre style="padding:24px;font-size:12px;line-height:1.8;color:#7A7D7F;font-family:ui-monospace,'SF Mono',Menlo,monospace;white-space:pre-wrap;max-height:340px;overflow-y:auto;margin:0">${doc}</pre>
+      </div>
+    </div>`;
+    document.getElementById('btn-next').style.display='none';
+  }
+};
+
+// ── RAPID FIRE ────────────────────────────────
+function rfVote(vote){
+  const idx=ST.rfIdx,words=WARMUP_WORDS;
+  if(idx>=words.length)return;
+  ST.warmup[words[idx]]=vote;
+  const dot=document.getElementById('rfd-'+idx);
+  if(dot){dot.style.background='#F04F24';dot.style.borderColor='transparent';}
+  const y=Object.values(ST.warmup).filter(v=>v==='yes').length,
+        m=Object.values(ST.warmup).filter(v=>v==='maybe').length,
+        n=Object.values(ST.warmup).filter(v=>v==='no').length;
+  ['yes','maybe','no'].forEach(k=>{const el=document.getElementById('rft-'+k);if(el)el.textContent=k==='yes'?y:k==='maybe'?m:n;});
+  ST.rfIdx++;
+  const wordEl=document.getElementById('rf-word');
+  if(!wordEl)return;
+  wordEl.style.transition='opacity .18s ease,transform .18s ease';
+  wordEl.style.opacity='0';
+  wordEl.style.transform=vote==='yes'?'translateX(60px) rotate(5deg)':vote==='no'?'translateX(-60px) rotate(-5deg)':'translateY(-36px) scale(0.85)';
+  setTimeout(()=>{
+    if(ST.rfIdx>=words.length){
+      const stage=document.getElementById('rf-stage');
+      if(stage)stage.innerHTML=`<div style="text-align:center;animation:fadeUp .4s ease"><div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:14px">Complete</div><div style="font-family:'Instrument Serif',serif;font-style:italic;font-size:52px;color:#fff;margin-bottom:18px;line-height:1">Instincts locked.</div><div style="font-size:16px;color:rgba(255,255,255,.6)">${y} Yes &nbsp;·&nbsp; ${m} Maybe &nbsp;·&nbsp; ${n} No</div><div style="font-size:14px;color:rgba(255,255,255,.35);margin-top:12px">Click Continue to proceed.</div></div>`;
+      return;
+    }
+    const w2=document.getElementById('rf-word');if(!w2)return;
+    w2.style.transition='none';w2.style.opacity='0';
+    w2.style.transform=vote==='yes'?'translateX(-60px) rotate(-5deg)':vote==='no'?'translateX(60px) rotate(5deg)':'translateY(36px) scale(0.85)';
+    w2.textContent=words[ST.rfIdx];
+    const nd=document.getElementById('rfd-'+ST.rfIdx);if(nd)nd.style.borderColor='rgba(255,255,255,.6)';
+    const ct=document.getElementById('rf-counter');if(ct)ct.textContent=`${ST.rfIdx+1} of ${words.length}`;
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{w2.style.transition='opacity .18s ease,transform .18s ease';w2.style.opacity='1';w2.style.transform='translateX(0) rotate(0deg) scale(1)';}));
+  },220);
+}
+
+// ── VALUE RANK ────────────────────────────────
+function rankValue(v){
+  const i=ST.valueRanking.indexOf(v);
+  if(i!==-1)ST.valueRanking.splice(i,1);else if(ST.valueRanking.length<4)ST.valueRanking.push(v);
+  const g=document.getElementById('rank-grid');if(g&&window._rankRender)g.innerHTML=window._rankRender();
+  const n=ST.valueRanking.length,h=document.getElementById('rank-hint');
+  if(h)h.textContent=n<4?`Ranked ${n}/4.${RANK_LABELS[n]?' Next: select the '+RANK_LABELS[n]+' value.':''}` : 'All four ranked. Click any to re-order.';
+}
+
+// ── EMOTIONS ──────────────────────────────────
+function toggleEmotion(e,field){
+  const arr=[...(ST[field]||[])],i=arr.indexOf(e);
+  if(i!==-1)arr.splice(i,1);else arr.push(e);
+  ST[field]=arr;
+  const el=document.getElementById('chips-'+field.replace('emotions','').toLowerCase());
+  const list=field==='emotionsBefore'?EMOTIONS_BEFORE:EMOTIONS_AFTER;
+  const selected=ST[field];
+  if(el)el.innerHTML=list.map(em=>{const on=selected.includes(em);return `<div onclick="toggleEmotion('${em}','${field}')" style="padding:9px 16px;border:2px solid ${on?'#F04F24':'#e5e7eb'};background:${on?'#F04F24':'#fff'};color:${on?'#fff':'#222629'};font-size:14px;font-weight:500;cursor:pointer;transition:.15s;user-select:none">${em}</div>`;}).join('');
+}
+function setPrimaryEmotion(e){
+  ST.primaryEmotion=e;
+  R[3](); // re-render step 3
+}
+
+// ── TONE ──────────────────────────────────────
+function selectTone(key){ST.tonePosition=key;R[4]();}
+
+// ── REJECTIONS ────────────────────────────────
+function toggleRejection(r){
+  const i=ST.rejections.indexOf(r);
+  if(i!==-1)ST.rejections.splice(i,1);else ST.rejections.push(r);
+  R[7]();
+}
+
+// ── HARVEST ───────────────────────────────────
+function renderHarvestTab(value){
+  ST.harvestTab=value;
+  const te=document.getElementById('harvest-tabs');
+  if(te)te.innerHTML=VALUES.map(v=>{
+    const cnt=(ST.harvested[v]||[]).length,isA=v===value;
+    return `<button onclick="renderHarvestTab('${v}')" style="padding:11px 20px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border:none;background:none;border-bottom:2px solid ${isA?'#F04F24':'transparent'};margin-bottom:-1px;color:${isA?'#222629':cnt>=3?'#1F8A5B':'#A7A8A9'};transition:.15s">${v}</button>`;
+  }).join('');
+  const harvested=ST.harvested[value]||[],words=TERRITORY_WORDS[value];
+  const body=document.getElementById('harvest-body');if(!body)return;
+  body.innerHTML=`
+    <div style="display:grid;grid-template-columns:1fr 240px;gap:26px;align-items:start">
+      <div>
+        <p style="font-size:13px;color:#7A7D7F;margin-bottom:16px;font-style:italic">${VALUE_INFO[value].sub} — click the words that feel like LEAM</p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px">
+          ${words.map(w=>{const on=harvested.includes(w);return `<div onclick="toggleHarvest('${w}','${value}')" style="padding:8px 16px;border:2px solid ${on?'#F04F24':'#e5e7eb'};background:${on?'#F04F24':'#fff'};color:${on?'#fff':'#222629'};font-size:14px;font-weight:500;cursor:pointer;transition:.15s;user-select:none">${w}</div>`;}).join('')}
+        </div>
+      </div>
+      <div style="border:2px solid #e5e7eb;padding:18px">
+        <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#F04F24;font-weight:700;margin-bottom:14px">Harvested</div>
+        <div style="display:flex;flex-direction:column;gap:7px">${harvested.map(w=>`<div style="font-size:13px;color:#222629;display:flex;align-items:center;gap:9px"><span style="width:6px;height:6px;background:#F04F24;flex-shrink:0;display:inline-block"></span>${w}</div>`).join('')}</div>
+        <div style="font-size:26px;font-weight:700;color:#F04F24;margin-top:14px">${harvested.length}</div>
+        <div style="font-size:10px;color:#A7A8A9;text-transform:uppercase;letter-spacing:.08em">words harvested</div>
+        <div style="font-size:11px;color:#A7A8A9;font-style:italic;margin-top:8px">Minimum 3 per territory</div>
+      </div>
+    </div>`;
+}
+function toggleHarvest(word,value){
+  const arr=[...(ST.harvested[value]||[])],i=arr.indexOf(word);
+  if(i!==-1)arr.splice(i,1);else arr.push(word);
+  ST.harvested[value]=arr;renderHarvestTab(value);
+}
+
+// ── GENERATION ────────────────────────────────
+function renderGenTab(value){
+  ST.genTab=value;
+  const slots=ST.slots[value]||['','','','',''],ph=GEN_PH[value]||[];
+  const count=slots.filter(s=>s&&s.trim()).length;
+  const te=document.getElementById('gen-tabs');
+  if(te)te.innerHTML=VALUES.map(v=>{
+    const cnt=(ST.slots[v]||[]).filter(s=>s&&s.trim()).length,isA=v===value;
+    return `<button onclick="switchGenTab('${v}')" style="padding:7px 16px;border:2px solid ${isA?'#F04F24':cnt>=5?'#1F8A5B':'#e5e7eb'};background:${isA?'rgba(240,79,36,.06)':'#fff'};color:${isA?'#222629':cnt>=5?'#1F8A5B':'#7A7D7F'};font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;transition:.15s">${v.replace('Radical ','R. ')}</button>`;
+  }).join('');
+  const body=document.getElementById('gen-body');
+  if(body)body.innerHTML=`
+    <div style="font-size:13px;color:#7A7D7F;margin-bottom:6px;font-style:italic">${VALUE_INFO[value].sub}</div>
+    <div style="font-size:11px;color:#F04F24;margin-bottom:16px;font-weight:600;letter-spacing:.06em;text-transform:uppercase">One name idea per row — invent them, don't just select words from the list</div>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      ${[0,1,2,3,4].map(i=>`<div style="display:flex;align-items:center;gap:10px"><div style="width:24px;height:24px;border:2px solid #e5e7eb;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#A7A8A9;flex-shrink:0">${i+1}</div><input type="text" value="${slots[i]||''}" placeholder="${ph[i]||'Name idea…'}" oninput="saveGenName('${value}',${i},this.value)" style="flex:1;background:#fff;border:2px solid #e5e7eb;color:#222629;padding:11px 14px;font-size:14px;transition:border-color .15s"></div>`).join('')}
+    </div>
+    <div id="gen-count-${value}" style="font-size:11px;color:#A7A8A9;font-style:italic;margin-top:12px">${count} / 5 name ideas for this territory</div>`;
+  renderGenSide();
+}
+function renderGenSide(){
+  const wb=document.getElementById('word-bank');
+  if(!wb)return;
+  const t=ST.genSideTab;
+  const tabBar=`<div style="display:flex;border-bottom:2px solid #e5e7eb;margin-bottom:16px">
+    <button onclick="ST.genSideTab='gallery';renderGenSide()" style="flex:1;padding:9px 0;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;border:none;background:none;border-bottom:2px solid ${t==='gallery'?'#F04F24':'transparent'};margin-bottom:-2px;color:${t==='gallery'?'#222629':'#A7A8A9'}">Gallery</button>
+    <button onclick="ST.genSideTab='prior';renderGenSide()" style="flex:1;padding:9px 0;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;border:none;background:none;border-bottom:2px solid ${t==='prior'?'#F04F24':'transparent'};margin-bottom:-2px;color:${t==='prior'?'#222629':'#A7A8A9'}">Prior Work</button>
+    <button onclick="ST.genSideTab='words';renderGenSide()" style="flex:1;padding:9px 0;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;border:none;background:none;border-bottom:2px solid ${t==='words'?'#F04F24':'transparent'};margin-bottom:-2px;color:${t==='words'?'#222629':'#A7A8A9'}">Words</button>
+  </div>`;
+  if(t==='gallery'){
+    wb.innerHTML=tabBar+`<div style="font-size:11px;color:#A7A8A9;margin-bottom:16px;line-height:1.6">Real names. The move behind each one annotated. Use these to calibrate your instincts — don't copy the names.</div>
+    <div style="overflow-y:auto;max-height:calc(100vh - 320px);display:flex;flex-direction:column;gap:0">
+      ${NAME_GALLERY.map(group=>`
+        <div style="margin-bottom:16px">
+          <div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#F04F24;margin-bottom:4px;padding:8px 0 6px;border-bottom:2px solid #f1f1f1">${group.group}</div>
+          <div style="font-size:11px;color:#A7A8A9;font-style:italic;line-height:1.5;margin-bottom:10px;padding-top:6px">${group.sub}</div>
+          ${group.names.map(n=>`<div style="padding:8px 0;border-bottom:1px solid #f5f5f5">
+            <div style="font-family:'Instrument Serif',serif;font-style:italic;font-size:16px;color:#080808;margin-bottom:3px">${n.name}</div>
+            <div style="font-size:11px;color:#7A7D7F;line-height:1.55">${n.note}</div>
+          </div>`).join('')}
+        </div>`).join('')}
+    </div>`;
+  } else if(t==='prior'){
+    wb.innerHTML=tabBar+`<div style="font-size:11px;color:#A7A8A9;margin-bottom:14px;line-height:1.6">Names the client has explored before this session. These are reference — not constraints. Starred names are client favourites.</div>
+    <div style="overflow-y:auto;max-height:calc(100vh - 320px)">
+      ${CLIENT_REFS.map(g=>`<div style="margin-bottom:16px">
+        <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#A7A8A9;padding:7px 0 6px;border-bottom:1px solid #f1f1f1;margin-bottom:8px">${g.theme}</div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px">
+          ${g.names.map(n=>{const fav=g.favs.includes(n);return `<div style="padding:4px 10px;border:2px solid ${fav?'#F04F24':'#e5e7eb'};font-size:12px;color:${fav?'#F04F24':'#7A7D7F'};font-family:'Instrument Serif',serif;font-style:italic;position:relative">${n}${fav?'<span style="position:absolute;top:-5px;right:-5px;font-size:8px;color:#F04F24">★</span>':''}</div>`;}).join('')}
+        </div>
+      </div>`).join('')}
+      <div style="border-top:2px solid #e5e7eb;padding-top:12px;margin-top:4px"><div style="font-size:10px;color:#A7A8A9;line-height:1.6;font-style:italic">These names cluster around calm, trust, and light. The territory most clearly not covered is Permission / Agency — which maps directly to LEAM's Liberation value.</div></div>
+    </div>`;
+  } else {
+    wb.innerHTML=tabBar+`<div style="font-size:11px;color:#A7A8A9;margin-bottom:16px;line-height:1.6">Starting points — compress, modify, use as a root, or let them spark something entirely different.</div>
+    ${VALUES.map(v=>{const h=ST.harvested[v],ws=(h&&h.length)?h:TERRITORY_WORDS[v].slice(0,8);return `<div style="margin-bottom:16px"><div style="font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#A7A8A9;margin-bottom:7px">${v}</div><div style="display:flex;flex-wrap:wrap;gap:6px">${ws.map(w=>`<div style="font-size:12px;color:#F04F24;border:2px solid #FCDCD3;padding:3px 8px;font-style:italic;font-family:'Instrument Serif',serif">${w}</div>`).join('')}</div></div>`;}).join('')}`;
+  }
+}
+function switchGenTab(v){renderGenTab(v);}
+function saveGenName(value,idx,val){
+  const arr=[...(ST.slots[value]||['','','','',''])];arr[idx]=val;ST.slots[value]=arr;
+  const c=arr.filter(s=>s&&s.trim()).length,el=document.getElementById('gen-count-'+value);
+  if(el)el.textContent=`${c} / 5 name ideas for this territory`;
+}
+
+// ── SORT ──────────────────────────────────────
+function sortVote(vote){
+  const q=ST.sortQueue,idx=ST.sortIndex;
+  if(idx>=q.length)return;
+  ST.clusters[q[idx].name]=vote;ST.sortTally[vote]++;
+  ['yes','maybe','no'].forEach(k=>{const el=document.getElementById('st-'+k);if(el)el.textContent=ST.sortTally[k];});
+  const card=document.getElementById('sort-card');
+  if(card){const fly=vote==='yes'?'translateX(120vw) rotate(10deg)':vote==='no'?'translateX(-120vw) rotate(-10deg)':'translateY(-90px) scale(.9)';card.style.transition='transform .38s cubic-bezier(.4,0,1,1),opacity .38s ease';card.style.transform=fly;card.style.opacity='0';}
+  ST.sortIndex++;
+  setTimeout(()=>{
+    if(ST.sortIndex>=q.length){R[10]();return;}
+    const next=q[ST.sortIndex],wrap=document.getElementById('sort-card-wrap');
+    if(wrap)wrap.innerHTML=`<div id="sort-card" style="position:absolute;background:#2C3033;border:2px solid rgba(255,255,255,.14);padding:40px 48px;text-align:center;min-width:320px;animation:sortRise .3s cubic-bezier(.2,0,.3,1)"><div style="font-family:'Instrument Serif',serif;font-style:italic;font-size:clamp(30px,5vw,52px);color:#fff;margin-bottom:8px;line-height:1">${next.name}</div><div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#F04F24">${next.value}</div></div>`;
+    const p=document.getElementById('sort-progress');if(p)p.textContent=`${ST.sortIndex+1} of ${q.length}`;
+  },400);
+}
+
+// ── STRESS ────────────────────────────────────
+function setStressActive(name){ST.stressActive=name;R[12]();}
+function setStressScore(name,key,s,btn){
+  if(!ST.scores[name])ST.scores[name]={};ST.scores[name][key]=s;
+  btn.closest('div').querySelectorAll('button').forEach(b=>{const n=parseInt(b.textContent);b.style.background=n===s?'#F04F24':'#fff';b.style.borderColor=n===s?'#F04F24':'#e5e7eb';b.style.color=n===s?'#fff':'#7A7D7F';});
+  const avg=document.getElementById('stress-avg');if(avg)avg.textContent=avgScore(name);
+}
+function setStressFlag(name,key,value){if(!ST.scores[name])ST.scores[name]={};ST.scores[name][key+'_flag']=value;}
+
+// ── FINALISTS ─────────────────────────────────
+function toggleFinalist(name,card){
+  const i=ST.finalists.indexOf(name);
+  if(i!==-1){ST.finalists.splice(i,1);card.style.borderColor='#e5e7eb';card.style.background='#fff';}
+  else{ST.finalists.push(name);card.style.borderColor='#F04F24';card.style.background='rgba(240,79,36,.05)';}
+}
+
+// ── GENERATE DOC ──────────────────────────────
+function generateDoc(){
+  const c=candidates();
+  const y=Object.entries(ST.warmup).filter(([,v])=>v==='yes').map(([k])=>k);
+  const n=Object.entries(ST.warmup).filter(([,v])=>v==='no').map(([k])=>k);
+  const tp=TONE_POSITIONS.find(t=>t.key===ST.tonePosition);
+  const fin=ST.finalists.map(name=>{
+    const tests=STRESS_TESTS.map(t=>{const sc=ST.scores[name]&&ST.scores[name][t.key];const f=ST.scores[name]&&ST.scores[name][t.key+'_flag'];return `    ${t.label}: ${sc||'-'}/5${f?' | '+f:''}`;}).join('\n');
+    return `NAME: ${name}\n  Territory: ${c[name]?c[name].value:'—'}\n  Avg score: ${avgScore(name)}/5\n${tests}`;
+  }).join('\n\n');
+  const all=Object.keys(c).map(n=>`  ${n.padEnd(22)} [${c[n].value}] ${(ST.clusters[n]||'unsorted').toUpperCase()}`).join('\n');
+  const line='━'.repeat(48),dash='─'.repeat(40);
+  return `LEAM — BRAND NAMING WORKSHOP\n${line}\n${new Date().toLocaleDateString('en-GB',{year:'numeric',month:'long',day:'numeric'})} · Facilitated by Ammunition\n\nPHASE 1 — BRAND ESSENCE\n${dash}\nLead Value: ${ST.valueRanking[0]||'—'}\nValue Priority: ${ST.valueRanking.join(' > ')||'—'}\nPrimary Emotion (name should evoke): ${ST.primaryEmotion||'—'}\nEmotional shift — Before: ${ST.emotionsBefore.join(', ')||'—'}\nEmotional shift — After: ${ST.emotionsAfter.join(', ')||'—'}\nVoice Position: ${tp?tp.label:'—'}\nWords that resonated: ${y.join(', ')||'none'}\nWords that didn\'t: ${n.join(', ')||'none'}\nGuardrails: ${ST.guardrails||'None specified'}\nStakeholder context: ${ST.stakeholders||'None specified'}\n\nFUTURE AMBITION\n${dash}\n${ST.ambition1?'Most _______ platform: '+ST.ambition1:''}\n${ST.ambition2?'Changed _______: '+ST.ambition2:''}\n${ST.ambition3?'Made people feel _______: '+ST.ambition3:''}\n\nWHAT WE\'RE REJECTING\n${dash}\nNot: ${ST.rejections.join(', ')||'—'}\nSo LEAM is: ${ST.notStatement||'—'}\n\nPHASE 2 — FULL NAME POOL\n${dash}\n${all||'  None'}\n\nPHASE 3 — STRESS TEST RESULTS\n${dash}\n${fin||'No stress tests completed.'}\n\nPHASE 4 — DECISION\n${dash}\nFinalists: ${ST.finalists.join(', ')||'None selected'}\n\nRationale:\n${ST.rationale||'None provided.'}\n\nNEXT ACTIONS\n${dash}\n1. Trademark search (UKIPO) for each finalist\n2. Domain availability: .com, .co.uk, .io\n3. Set each name at hero scale in the LEAM typeface — live with them for 48 hours\n4. Stakeholder alignment session\n5. FCA entity name compatibility check\n\n${line}\nAmmunition — Growth. No Matter What.™`;
+}
+function downloadDoc(){const blob=new Blob([window._wsDoc||generateDoc()],{type:'text/plain'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='leam-naming-workshop.txt';a.click();}
+
+// ── SAVE PROGRESS ─────────────────────────────
+function saveProgress(){
+  const lines=['LEAM — NAMING WORKSHOP (PROGRESS SAVE)','='.repeat(44),''];
+  const y=Object.entries(ST.warmup).filter(([,v])=>v==='yes').map(([k])=>k);
+  const m=Object.entries(ST.warmup).filter(([,v])=>v==='maybe').map(([k])=>k);
+  const n=Object.entries(ST.warmup).filter(([,v])=>v==='no').map(([k])=>k);
+  if(y.length||m.length||n.length){lines.push('Rapid Fire:');lines.push(`  Yes: ${y.join(', ')||'none'}`);lines.push(`  Maybe: ${m.join(', ')||'none'}`);lines.push(`  No: ${n.join(', ')||'none'}`);lines.push('');}
+  if(ST.valueRanking.length)lines.push('Value Priority: '+ST.valueRanking.join(' > '),'');
+  if(ST.primaryEmotion)lines.push('Primary Emotion: '+ST.primaryEmotion,'');
+  if(ST.tonePosition){const tp=TONE_POSITIONS.find(t=>t.key===ST.tonePosition);lines.push('Voice Position: '+(tp?tp.label:ST.tonePosition),'');}
+  if(ST.guardrails||ST.stakeholders){lines.push('Guardrails: '+ST.guardrails||'none');lines.push('Stakeholder context: '+ST.stakeholders||'none');lines.push('');}
+  if(ST.ambition1||ST.ambition2||ST.ambition3){lines.push('Future Ambition:');if(ST.ambition1)lines.push('  '+ST.ambition1);if(ST.ambition2)lines.push('  '+ST.ambition2);if(ST.ambition3)lines.push('  '+ST.ambition3);lines.push('');}
+  if(ST.rejections.length||ST.notStatement){lines.push('Not: '+ST.rejections.join(', '));if(ST.notStatement)lines.push('So LEAM is: '+ST.notStatement);lines.push('');}
+  VALUES.forEach(v=>{const h=ST.harvested[v];if(h&&h.length)lines.push(v+' (harvested): '+h.join(', '));});
+  const c=candidates();if(Object.keys(c).length){lines.push('');lines.push('Name Pool:');VALUES.forEach(v=>{const ns=(ST.slots[v]||[]).filter(s=>s&&s.trim());if(ns.length)lines.push('  '+v+': '+ns.join(', '));});}
+  if(ST.finalists.length)lines.push('','Finalists: '+ST.finalists.join(', '));
+  lines.push('','Saved: '+new Date().toLocaleString('en-GB'),'Step: '+ST.step+' / 15');
+  const blob=new Blob([lines.join('\n')],{type:'text/plain'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='leam-workshop-progress.txt';a.click();
+}
+
+// ── BOOT ──────────────────────────────────────
+function renderAll(){renderShell();R[ST.step]();document.getElementById('content').scrollTop=0;}
+renderAll();
+</script>
+</body>
+</html>
